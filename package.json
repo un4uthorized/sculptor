@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest --coverage"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -21,6 +21,7 @@
     "@types/react-dom": "^18.0.10",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "^0.29.1",
     "jsdom": "^21.1.0",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
