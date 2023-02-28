@@ -23,6 +23,11 @@ describe("/hocs/with-currency/currency", () => {
             const realInput = new Currency("123.45");
             expect(realInput.getFormattedValue()).toBe("123,45");
         });
+
+        test("should format the value as currency with 2 decimal places", () => {
+            const realInput = new Currency("123.456");
+            expect(realInput.getFormattedValue()).toBe("123,46");
+        });
     });
 
     describe("setRawValue", () => {
