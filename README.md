@@ -9,7 +9,7 @@ Sculptor is available as an [npm package](https://www.npmjs.com/package/sculptor
 
 ```bash
 
-npm install --save sculptor
+npm install --save sculptor-react
 
 ```
 
