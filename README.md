@@ -5,7 +5,7 @@ Sculptor is a powerful React library designed to help developers build useful hi
 
 ## Installation
 
-Sculptor is available as an [npm package](https://www.npmjs.com/package/sculptor).
+Sculptor is available as an [npm package]
 
 ```bash
 
