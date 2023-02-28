@@ -16,7 +16,7 @@ export class Currency {
     getFormattedValue() {
         return this.value.toLocaleString("pt-BR", {
             currency: "BRL",
-            minimumFractionDigits: 2
+            maximumFractionDigits: 2
         });
     }
 }
